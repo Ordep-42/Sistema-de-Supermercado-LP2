@@ -2,11 +2,11 @@ package produto;
 
 import fornecedor.Fornecedor;
 
-public class ProdutoAlimento extends Produto {
+public class ProdutoAlimenticio extends Produto {
 	
 	private int diasValidade;
 
-	public ProdutoAlimento(String newNome, int newCodigoBarras, double newPrecoBase, Fornecedor newFornecedor, int newDiasValidade) {
+	public ProdutoAlimenticio(String newNome, int newCodigoBarras, double newPrecoBase, Fornecedor newFornecedor, int newDiasValidade) {
 		super(newNome, newCodigoBarras, newPrecoBase, newFornecedor);
 		this.diasValidade = newDiasValidade;
 	}
